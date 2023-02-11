@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class = "main-content">
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/IMG_20210504_230852_049.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hello, I'm <span class="name">Ankit Chakraborty.</span>
+                    App Developer
+                </h1>
+                <p>
+                    I create and maintain apps.
+                    Check out my handles to know more or contact me anytime to connect.
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <span class="btn-text">My Resume</span>
+                        <span class="btn-icon"><i class="fa-solid fa-file-arrow-down"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section sec2 about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h3>Know Me</h3>
+                    <p>
+                        I am an App Developer. I am currently a 2nd Year Electrical and Electronics Engineering
+                        undergrad from Manipal Institute of Technology. I was born and brought up in 
+                        Jamshedpur. I am 20 years of age.
+                    </p>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">2</p>
+                            <p class="small-text">Projects <br/> Completed </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="progress-title">Flutter</p>
+                        <p class="progress-title">Dart</p>
+                        <p class="progress-title">Java</p>
+                        <p class="progress-title">C</p>
+                        <p class="progress-title">Python</p>
+                        <p class="progress-title">Git</p>
+                        <p class="progress-title">DSA</p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="section sec3 contact" id="contact">
+            <div class="contact-container">
+                <div class="main-class">
+                    <h2>Contact <span>Me</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact Me here</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-location-crosshairs"></i>
+                                    <span>Location:</span>
+                                </div>
+                                <p>
+                                     Manipal, Karnataka, India
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>Email:</span>
+                                </div>
+                                <p>
+                                    <span>ankitchakraborty1972@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-mobile"></i>
+                                    <span>Mobile Number:</span>
+                                </div>
+                                <p>
+                                    <span>8789626570</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.instagram.com/ankit_ac11/" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ankit-chakraborty-0b2821190/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://twitter.com/AnkitCh17268717" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="https://github.com/QuarterColon" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="theme-button">
+        <i class="fa-solid fa-moon"></i>
+    </div>
+    
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fa fa-home"></i>
+        </div>
+        <div class="control control-2" data-id="about">
+            <i class="fa fa-user"></i>
+        </div>
+        <div class="control control-3" data-id="contact">
+            <i class="fa-solid fa-address-card"></i>
+        </div>
+    </div>
+
+    <script src="app.js">
+
+    </script>
+</body>
+</html>
