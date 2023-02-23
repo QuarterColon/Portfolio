@@ -408,16 +408,57 @@ section {
   pointer-events: none;
 }
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 640px) {
+  :root {
+    --color-primary: #222121;
+    --color-secondary: #d504d2;
+    --color-white: #FFFFFF;
+    --color-black: #000;
+    --color-grey0: #f8f8f8;
+    --color-grey-1: #dbe1e8;
+    --color-grey-2: #b2becd;
+    --color-grey-3: #6c7983;
+    --color-grey-4: #494e56;
+    --color-grey-5: #2a2e35;
+    --color-grey-6: #12181b;
+    --br-sm-2: 14px;
+    --box-shadow: 0 3px 15px rgba(0,0,0,.3) ;
+  }
+  .light-mode {
+    --color-primary: #FFFFFF;
+    --color-secondary: rgb(65, 97, 255);
+    --color-white: #000000;
+    --color-black: #000;
+    --color-grey0: #f8f8f8;
+    --color-grey-1: #6c7983;
+    --color-grey-2: #6c7983;
+    --color-grey-3: #6c7983;
+    --color-grey-4: #cdcdcd;
+    --color-grey-5: #b9b9b9;
+    --color-grey-6: #12181b;
+  }
   header {
     padding: 0;
   }
   header .right-header {
     padding: 0 !important;
   }
+  header .right-header p {
+    font-size: 1rem;
+  }
+  header .right-header .btn-con .main-btn {
+    background-color: var(--color-secondary);
+  }
+  header .right-header .btn-con .main-btn .btn-text {
+    padding: 0 1rem;
+    font-size: 13px;
+  }
   .theme-button {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+  }
+  .theme-button i {
+    font-size: 1rem;
   }
   .header-content {
     grid-template-columns: 1fr;
