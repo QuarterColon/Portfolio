@@ -50,6 +50,17 @@
         }
     }
 
+    .controls{
+        right: 30%;
+        .control{
+            width: 45px;
+            height: 45px;
+        }
+        i{
+            font-size: 0.9rem;
+        }
+    }
+
 
     
 
@@ -77,6 +88,9 @@
     .header-content .left-header .image{
         margin: 0 auto;
         width: 90%;
+        img{
+            filter: none;
+        }
     }
 
     .about-container{
@@ -112,7 +126,11 @@
         padding: 0 !important;
         h4{
             margin-top: 2rem;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
+        }
+        .contact-icon{
+            position: absolute;
+            left: 90px;
         }
     }
 
@@ -130,8 +148,9 @@
         }
         i{
             font-size: 1rem !important;
-            justify-content: flex-end;
+            justify-content: center;
         }
+        
     }
 
     .main-title{

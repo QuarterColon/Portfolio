@@ -453,6 +453,16 @@ section {
     padding: 0 1rem;
     font-size: 13px;
   }
+  .controls {
+    right: 30%;
+  }
+  .controls .control {
+    width: 45px;
+    height: 45px;
+  }
+  .controls i {
+    font-size: 0.9rem;
+  }
   .theme-button {
     width: 40px;
     height: 40px;
@@ -474,6 +484,9 @@ section {
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90%;
+  }
+  .header-content .left-header .image img {
+    filter: none;
   }
   .about-container {
     grid-template-columns: 1fr;
@@ -504,7 +517,11 @@ section {
   }
   .contact-content-con h4 {
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .contact-content-con .contact-icon {
+    position: absolute;
+    left: 90px;
   }
   .contact-item {
     flex-direction: column;
@@ -521,7 +538,7 @@ section {
   }
   .contact-item i {
     font-size: 1rem !important;
-    justify-content: flex-end;
+    justify-content: center;
   }
   .main-title h2 {
     font-size: 2rem;
