@@ -296,11 +296,25 @@ section{
 
 .about-stats{
     position: relative;
-    .progress-bars{
-        .progress-bar{
+    justify-content: center;
+    .progress-bar{
             display: flex;
-            flex-direction: row;
-            padding-bottom: 20%;
+            padding: 2rem;
+            justify-content: center;
+
+
+                i{
+                    font-size: 2rem;
+                    padding: 2rem;
+                }
+                img {
+                    width: 2rem;
+                    height: 2rem;
+                
+                }
+                i{
+                    font-size: 2rem;
+                }
             .progress-title{
                 font-weight: 600;
                 color: var(--color-secondary);
@@ -308,8 +322,14 @@ section{
                 padding: 5%;
             }
         }
-    }
+    
+
+
+
 }
+
+
+
 
 .stat-title{
     font-size: 2rem;

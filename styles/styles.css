@@ -286,13 +286,25 @@ section {
 
 .about-stats {
   position: relative;
+  justify-content: center;
 }
-.about-stats .progress-bars .progress-bar {
+.about-stats .progress-bar {
   display: flex;
-  flex-direction: row;
-  padding-bottom: 20%;
+  padding: 2rem;
+  justify-content: center;
 }
-.about-stats .progress-bars .progress-bar .progress-title {
+.about-stats .progress-bar i {
+  font-size: 2rem;
+  padding: 2rem;
+}
+.about-stats .progress-bar img {
+  width: 2rem;
+  height: 2rem;
+}
+.about-stats .progress-bar i {
+  font-size: 2rem;
+}
+.about-stats .progress-bar .progress-title {
   font-weight: 600;
   color: var(--color-secondary);
   text-transform: uppercase;
